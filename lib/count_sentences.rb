@@ -15,14 +15,7 @@ class String
   end
 
   def count_sentences
-    array = []
-    if sentence? 
-      self.split('.')
-      array << self
-      # self.count
-  binding.pry 
-    end 
-    array
+    self.split(/[.?!]/).count
   end
 end
 
