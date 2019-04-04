@@ -20,8 +20,9 @@ class String
       self.split('.')
       array << self
        self.count
-         binding.pry 
+  
     end 
+    binding.pry 
   end
 end
 
