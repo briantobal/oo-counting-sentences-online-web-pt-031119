@@ -19,7 +19,7 @@ class String
     if sentence? 
       self.split('.')
       array << self
-      binding.pry 
+      
     self.count
   end
 end
