@@ -22,6 +22,7 @@ class String
        self.count
   binding.pry 
     end 
+    array
   end
 end
 
