@@ -22,5 +22,6 @@ class String
       
     self.count
   end
+  binding.pry 
 end
 
