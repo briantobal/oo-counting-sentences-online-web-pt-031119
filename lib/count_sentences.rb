@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    if sentence 
     self.split('.', '!', '?')
     self.count
   end
